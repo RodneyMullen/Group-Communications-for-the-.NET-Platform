@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "socktest", "socktest.csproj", "{73635AC1-CB8C-4CA8-920A-B7C83C6314D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sockrecv", "..\sockrecv\sockrecv.csproj", "{7572676C-CADA-4CCA-BFF5-E0016BCA2F2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chat", "..\chat\chat.csproj", "{E52A1C9B-D371-421D-BED5-C8647AE04F4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{73635AC1-CB8C-4CA8-920A-B7C83C6314D6}.Debug.ActiveCfg = Debug|.NET
+		{73635AC1-CB8C-4CA8-920A-B7C83C6314D6}.Debug.Build.0 = Debug|.NET
+		{73635AC1-CB8C-4CA8-920A-B7C83C6314D6}.Release.ActiveCfg = Release|.NET
+		{73635AC1-CB8C-4CA8-920A-B7C83C6314D6}.Release.Build.0 = Release|.NET
+		{7572676C-CADA-4CCA-BFF5-E0016BCA2F2B}.Debug.ActiveCfg = Debug|.NET
+		{7572676C-CADA-4CCA-BFF5-E0016BCA2F2B}.Debug.Build.0 = Debug|.NET
+		{7572676C-CADA-4CCA-BFF5-E0016BCA2F2B}.Release.ActiveCfg = Release|.NET
+		{7572676C-CADA-4CCA-BFF5-E0016BCA2F2B}.Release.Build.0 = Release|.NET
+		{E52A1C9B-D371-421D-BED5-C8647AE04F4B}.Debug.ActiveCfg = Debug|.NET
+		{E52A1C9B-D371-421D-BED5-C8647AE04F4B}.Debug.Build.0 = Debug|.NET
+		{E52A1C9B-D371-421D-BED5-C8647AE04F4B}.Release.ActiveCfg = Release|.NET
+		{E52A1C9B-D371-421D-BED5-C8647AE04F4B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
